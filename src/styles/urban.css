@@ -1,0 +1,208 @@
+/* =========================================================
+   Urban Thread — editorial fashion identity
+   ========================================================= */
+
+.theme-urban {
+  --accent: #14161a;
+  --accent-ink: #ffffff;
+  --accent-soft: #eceae5;
+  --canvas: #fbfaf8;
+  --paper: #ffffff;
+  --paper-alt: #f2f0ec;
+  --gold: #a8843f;
+  --ink: #14161a;
+  --ink-soft: #4e525a;
+  --line: #e4e1da;
+  --line-strong: #cdc9c0;
+  --radius: 2px;
+  --radius-lg: 3px;
+}
+
+.theme-urban .site-header {
+  background: rgba(251, 250, 248, 0.94);
+}
+
+.theme-urban .hero__title,
+.theme-urban .collection__title,
+.theme-urban .editorial__title,
+.theme-urban .highlight__title,
+.theme-urban .pdp__title,
+.theme-urban .crosslink__title,
+.theme-urban .checkout__summary-title,
+.theme-urban .checkout-success__title,
+.theme-urban .empty-state__title,
+.theme-urban .drawer__title,
+.theme-urban .site-footer__wordmark {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: -0.005em;
+}
+
+.theme-urban .section__title {
+  letter-spacing: -0.01em;
+}
+
+.theme-urban .announce {
+  background: #14161a;
+  letter-spacing: 0.2em;
+}
+
+.theme-urban .hero {
+  padding-top: var(--space-9);
+  padding-bottom: var(--space-9);
+}
+
+.theme-urban .hero__title {
+  font-size: clamp(3rem, 6.4vw, 5rem);
+  line-height: 0.98;
+  text-transform: none;
+}
+
+.theme-urban .hero__body {
+  font-size: 1.0625rem;
+  max-width: 44ch;
+}
+
+.theme-urban .hero__media {
+  border-radius: 2px;
+  aspect-ratio: 3 / 4;
+}
+
+.theme-urban .hero__media img {
+  object-position: center 28%;
+}
+
+.theme-urban .btn--primary {
+  background: #14161a;
+  border-radius: 0;
+}
+
+.theme-urban .btn--outline,
+.theme-urban .btn--ghost {
+  border-radius: 0;
+}
+
+.theme-urban .product-card__media {
+  border-radius: 2px;
+  background: #f2f0ec;
+}
+
+.theme-urban .product-card__category {
+  color: #8a8579;
+}
+
+.theme-urban .product-card__badge {
+  border-radius: 0;
+  background: #14161a;
+  letter-spacing: 0.16em;
+}
+
+.theme-urban .filter__chip {
+  border-radius: 0;
+  border-color: #cdc9c0;
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  padding: 10px 18px;
+}
+
+.theme-urban .filter__chip.is-active {
+  background: #14161a;
+  border-color: #14161a;
+}
+
+.theme-urban .collection {
+  background: #fff;
+  border-top: 1px solid #e4e1da;
+}
+
+.theme-urban .searchbar__field {
+  border-radius: 0;
+  border-color: #cdc9c0;
+  background: #fff;
+}
+
+.theme-urban .qty {
+  border-radius: 0;
+  border-color: #cdc9c0;
+}
+
+.theme-urban .qty__value {
+  border-color: #e4e1da;
+}
+
+.theme-urban .editorial {
+  padding-top: var(--space-9);
+  padding-bottom: var(--space-9);
+}
+
+.theme-urban .editorial__media {
+  border-radius: 2px;
+}
+
+.theme-urban .crosslink {
+  background: #14161a;
+  color: #f3f0e9;
+  border-radius: 2px;
+}
+
+.theme-urban .crosslink__body {
+  color: #b9b3a8;
+}
+
+.theme-urban .crosslink .btn--outline {
+  color: #f3f0e9;
+}
+
+.theme-urban .crosslink .btn--outline:hover {
+  background: #f3f0e9;
+  color: #14161a;
+}
+
+.theme-urban .pdp__media {
+  border-radius: 2px;
+}
+
+.theme-urban .swatch {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+}
+
+.theme-urban .swatch.is-active {
+  background: #14161a;
+  border-color: #14161a;
+}
+
+.theme-urban .drawer {
+  border-left: 1px solid #e4e1da;
+}
+
+.theme-urban .drawer__close,
+.theme-urban .bag-button {
+  border-radius: 0;
+}
+
+.theme-urban .site-footer {
+  background: #fff;
+}
+
+.theme-urban .site-footer__base {
+  border-top: 1px solid #e4e1da;
+}
+
+.theme-urban .checkout__notice {
+  border-left-color: #a8843f;
+}
+
+.theme-urban .pdp__category,
+.theme-urban .cart-line__category {
+  color: #8a8579;
+}
+
+@media (max-width: 900px) {
+  .theme-urban .hero {
+    padding-top: var(--space-7);
+  }
+}

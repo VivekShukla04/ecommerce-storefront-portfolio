@@ -1,0 +1,218 @@
+/* =========================================================
+   PureGlow — clinical skincare identity
+   ========================================================= */
+
+.theme-glow {
+  --accent: #2f4f45;
+  --accent-ink: #ffffff;
+  --accent-soft: #e7efea;
+  --canvas: #fbf7f5;
+  --paper: #ffffff;
+  --paper-alt: #f3ece9;
+  --ink: #22302b;
+  --ink-soft: #56635d;
+  --ink-faint: #8b958f;
+  --line: #e8ded9;
+  --line-strong: #d7c9c2;
+  --gold: #b08d6a;
+  --radius: 10px;
+  --radius-lg: 18px;
+}
+
+.theme-glow .site-header {
+  background: rgba(251, 247, 245, 0.92);
+}
+
+.theme-glow .announce {
+  background: #2f4f45;
+  letter-spacing: 0.16em;
+}
+
+.theme-glow .hero {
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-8);
+}
+
+.theme-glow .hero__title {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: clamp(2.25rem, 4.6vw, 3.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
+
+.theme-glow .hero__body {
+  max-width: 48ch;
+}
+
+.theme-glow .hero__media {
+  border-radius: 24px;
+  aspect-ratio: 4 / 5;
+}
+
+.theme-glow .hero__media img {
+  object-position: center 30%;
+}
+
+.theme-glow .btn {
+  border-radius: 999px;
+}
+
+.theme-glow .btn--primary {
+  background: #2f4f45;
+}
+
+.theme-glow .btn--primary:hover {
+  background: #244038;
+}
+
+.theme-glow .btn--outline:hover {
+  background: #2f4f45;
+  color: #fff;
+}
+
+.theme-glow .section__title,
+.theme-glow .collection__title,
+.theme-glow .editorial__title,
+.theme-glow .highlight__title,
+.theme-glow .pdp__title,
+.theme-glow .crosslink__title,
+.theme-glow .checkout__summary-title,
+.theme-glow .checkout-success__title,
+.theme-glow .empty-state__title,
+.theme-glow .drawer__title,
+.theme-glow .site-footer__wordmark {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  letter-spacing: -0.025em;
+}
+
+.theme-glow .collection {
+  background: #fff;
+  border-top: 1px solid #e8ded9;
+}
+
+.theme-glow .filter__chip {
+  border-radius: 999px;
+  padding: 9px 18px;
+  background: #fff;
+}
+
+.theme-glow .filter__chip.is-active {
+  background: #2f4f45;
+  border-color: #2f4f45;
+}
+
+.theme-glow .searchbar__field {
+  border-radius: 999px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-color: #e0d5cf;
+}
+
+.theme-glow .product-card__media {
+  border-radius: 16px;
+  background: #f3ece9;
+}
+
+.theme-glow .product-card__media img {
+  transition: transform 0.8s var(--ease);
+}
+
+.theme-glow .product-card__badge {
+  border-radius: 999px;
+  background: #2f4f45;
+  letter-spacing: 0.1em;
+}
+
+.theme-glow .qty {
+  border-radius: 999px;
+  padding: 0 4px;
+}
+
+.theme-glow .qty__value {
+  border-color: #e8ded9;
+}
+
+.theme-glow .pdp__media {
+  border-radius: 20px;
+}
+
+.theme-glow .pdp__details {
+  background: #f6efe9;
+  border-radius: 16px;
+}
+
+.theme-glow .pdp__badge {
+  border-radius: 999px;
+  background: #2f4f45;
+}
+
+.theme-glow .swatch {
+  border-radius: 999px;
+}
+
+.theme-glow .swatch.is-active {
+  background: #2f4f45;
+  border-color: #2f4f45;
+}
+
+.theme-glow .editorial__media {
+  border-radius: 20px;
+}
+
+.theme-glow .crosslink {
+  background: #e7efea;
+  border-radius: 24px;
+}
+
+.theme-glow .crosslink .btn--outline {
+  color: #2f4f45;
+}
+
+.theme-glow .crosslink .btn--outline:hover {
+  background: #2f4f45;
+  color: #fff;
+}
+
+.theme-glow .drawer {
+  border-left: 1px solid #e8ded9;
+}
+
+.theme-glow .bag-button {
+  border-radius: 999px;
+}
+
+.theme-glow .checkout__summary {
+  border-radius: 20px;
+}
+
+.theme-glow .checkout__fieldset {
+  border-radius: 16px;
+}
+
+.theme-glow .field input {
+  border-radius: 12px;
+}
+
+.theme-glow .site-footer {
+  background: #fff;
+}
+
+.theme-glow .site-footer__base {
+  border-top: 1px solid #e8ded9;
+}
+
+.theme-glow .toast {
+  border-radius: 999px;
+  padding-left: 12px;
+}
+
+.theme-glow .product-card__title {
+  font-weight: 500;
+}
+
+.theme-glow .product-card__price,
+.theme-glow .price-current {
+  font-weight: 500;
+}

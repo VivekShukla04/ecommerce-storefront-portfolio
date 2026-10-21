@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#14161a" />
+    <meta
+      name="description"
+      content="Two complete e-commerce storefront demos built with React and Vite: Urban Thread (fashion) and PureGlow (skincare) — search, filters, product pages, cart and a demo checkout."
+    />
+    <meta property="og:title" content="Storefront Portfolio — Urban Thread &amp; PureGlow" />
+    <meta
+      property="og:description"
+      content="Two responsive e-commerce front-end demos sharing one component library. Built with React, Vite and hand-written CSS."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Storefront Portfolio — Urban Thread &amp; PureGlow</title>
+    <script>
+      // GitHub Pages serves 404.html for deep links; that page stashes the requested
+      // URL and this script restores it so client-side routing can pick it up.
+      (function () {
+        try {
+          var redirect = sessionStorage.getItem('portfolio:redirect');
+          if (redirect) {
+            sessionStorage.removeItem('portfolio:redirect');
+            var url = new URL(redirect, window.location.origin);
+            window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+          }
+        } catch (error) {
+          /* storage unavailable — fall back to the default route */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
