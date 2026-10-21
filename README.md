@@ -11,6 +11,12 @@ component library.
 
 **Live demo:** <https://vivekshukla04.github.io/ecommerce-storefront-portfolio/>
 
+| Portfolio home | Urban Thread | PureGlow |
+| --- | --- | --- |
+| ![Portfolio home](docs/screenshots/portfolio-home.jpg) | ![Urban Thread](docs/screenshots/urban-thread.jpg) | ![PureGlow](docs/screenshots/pureglow.jpg) |
+
+<sub>Product page and mobile view: [product page](docs/screenshots/urban-thread-product.jpg) · [mobile](docs/screenshots/urban-thread-mobile.jpg)</sub>
+
 > These are portfolio demonstrations. They are not stores I have managed for clients, they have no
 > sales history, and the checkout never takes a payment.
 
