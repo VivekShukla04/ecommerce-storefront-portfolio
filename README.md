@@ -9,7 +9,8 @@ component library.
 | **PureGlow** | `/pureglow` | Clean skincare store — serums, moisturisers, masks, cleansers, oils, SPF |
 | Portfolio home | `/` | Landing page introducing both demos, the build and the honest limitations |
 
-**Live demo:** <https://vivekshukla04.github.io/ecommerce-storefront-portfolio/>
+**Live demo:** <https://ecommerce-storefront-portfolio.vercel.app/> (also mirrored on GitHub Pages:
+<https://vivekshukla04.github.io/ecommerce-storefront-portfolio/>)
 
 | Portfolio home | Urban Thread | PureGlow |
 | --- | --- | --- |
@@ -102,6 +103,12 @@ npm run lint         # oxlint
 **GitHub Pages (live)** — push to `main`; `.github/workflows/deploy.yml` builds with
 `npm run build:pages` and publishes `dist/`. The `404.html` fallback keeps deep links such as
 `/urban-thread/product/ut-01` working on a static host.
+
+**Vercel (live)** — the production deployment is at
+<https://ecommerce-storefront-portfolio.vercel.app>. It is currently deployed from this repository
+with the Vercel CLI (`vercel --prod --yes`); the repository is not yet linked to the project, so
+pushes do not trigger an automatic Vercel redeploy. Linking it requires installing the Vercel
+GitHub App for this repository from the Vercel dashboard.
 
 **Vercel** — `vercel.json` is included: build `npm run build`, output `dist`, with a catch-all
 rewrite to `index.html`.
